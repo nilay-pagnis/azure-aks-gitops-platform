@@ -101,13 +101,14 @@ flowchart LR
 
 ## Screenshots
 
-| Argo CD (apps synced and healthy) | GitHub Actions (CI green) |
-|---|---|
-| ![Argo CD](docs/argocd-synced.png) | ![Actions](docs/github-actions-green.png) |
+### CI pipeline (GitHub Actions, OIDC login to Azure)
+![GitHub Actions](docs/github-actions-green.png)
 
-| Secret from Key Vault inside the pod | Grafana (namespace `app`) |
-|---|---|
-| ![Key Vault](docs/key-vault-secret.png) | ![Grafana](docs/grafana-dashboard.png) |
+### GitOps with Argo CD (app and monitoring, both Synced and Healthy)
+![Argo CD](docs/argocd-synced.png)
+
+### Monitoring with Grafana (kube-prometheus-stack dashboards)
+![Grafana](docs/grafana-dashboards.png)
 
 ## Getting started
 
