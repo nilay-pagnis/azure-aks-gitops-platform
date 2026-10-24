@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: sample-app
-          image: acraksplat408509.azurecr.io/sample-app:<TAG>
+          image: acraksplat408509.azurecr.io/sample-app:3269f20
           ports:
             - containerPort: 3000
           readinessProbe:
